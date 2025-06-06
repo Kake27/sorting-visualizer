@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SortingPanel from './SortingPanel';
 import {
-  bubbleSort,selectionSort,insertionSort,quickSort,mergeSort,heapSort,cocktailSort, shellSort
+  bubbleSort,selectionSort,insertionSort,quickSort,mergeSort,heapSort
 } from '../utils/sortingAlgorithms';
 
 const ALGORITHMS = [
